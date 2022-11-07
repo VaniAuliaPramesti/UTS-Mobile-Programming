@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/redmi5plus"
     tools:context=".MainActivity">
 
     <EditText
@@ -13,6 +14,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="16dp"
         android:hint="Email"
+        android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +28,7 @@
         android:layout_marginTop="16dp"
         android:hint="Password"
         android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/edt_email"
         app:layout_constraintStart_toStartOf="@id/edt_email"
         app:layout_constraintEnd_toEndOf="@id/edt_email"
@@ -35,14 +38,18 @@
         android:id="@+id/btn_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         android:enabled="false"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:shadowColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/edt_password"
         app:layout_constraintStart_toStartOf="@id/edt_password"
         app:layout_constraintEnd_toEndOf="@id/edt_password"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

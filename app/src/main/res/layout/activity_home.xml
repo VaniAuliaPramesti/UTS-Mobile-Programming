@@ -7,10 +7,12 @@
     tools:context=".HomeActivity">
 
     <TextView
+        android:id="@+id/you1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Vani Aulia Pramesti\n32602000068"
+        android:text="SELAMAT DATANG\nVani Aulia Pramesti\n32602000068"
+        android:background="@android:color/holo_orange_dark"
         android:textAlignment="center"
         android:textSize="32sp"
         android:lineSpacingExtra="16dp"
@@ -19,5 +21,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/kocheng"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
